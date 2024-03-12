@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar'
 import { cards } from "../data"
 import Slider from '../components/Slider'
+import Footer from '../components/Footer';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -87,6 +88,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <Footer/>
     </>
   )
 }
