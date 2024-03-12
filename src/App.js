@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import React,{useState,useEffect} from 'react';
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
+  const [showWelcome, setShowWelcome] = useState(true);
+
+  useEffect(() => {
+    // Hide the welcome message after 3 seconds (adjust the duration as needed)
+    const timeoutId = setTimeout(() => {
+      setShowWelcome(false);
+    }, 3000);
+
+    // Clear the timeout to avoid side effects when the component unmounts
+    return () => clearTimeout(timeoutId);
+  }, []); // Run this effect only once on component mount
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   {showWelcome ? (
+        <div className="text-center h-[100vh] flex justify-center items-center p-4 bg-[#5C5C5C]">
+          <h1 className="text-6xl text-white font-bold">WELCOME TO YOUR <br/> <br/> GURU TECH IT SOLUTIONS </h1>
+        </div>
+      ) : (
+        <Home />
+      )}
+   </>
   );
 }
 
