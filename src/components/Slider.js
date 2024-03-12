@@ -38,8 +38,8 @@ export default function App() {
       >
                   <SwiperSlide style={{backgroundImage:"url(/image/laptop-5.jpg)" , backgroundSize:"100% 100%"}} >
          <div className='text-white h-[100%] flex flex-col justify-center w-[90%] mx-auto'>
-             <h1 className='lg:text-[45px] font-bold md:text-[40px] text-[25px] text-[#fddc58]'>Laptop Accessories</h1>
-             <ul className=' mt-3 lg:text-[20px] md:text[22px] text-[18px]'>
+             <h1 className='lg:text-[45px] font-bold md:text-[40px] text-[23px] text-[#fddc58]'>Laptop Accessories</h1>
+             <ul className=' mt-3 lg:text-[20px] md:text[22px] text-[16px]'>
                  <li className=''>
                      Fast & Reliable
                  </li>
@@ -54,8 +54,8 @@ export default function App() {
        </SwiperSlide>
        <SwiperSlide style={{backgroundImage:"url(/image/gaming-4.jpg)" , backgroundSize:"100% 100%"}} >
        <div className='text-white h-[100%] flex flex-col justify-center w-[90%] mx-auto'>
-             <h1 className='lg:text-[45px] font-bold md:text-[40px] text-[25px] text-[#fddc58]'>Laptop Accessories</h1>
-             <ul className=' mt-3 lg:text-[20px] md:text[22px] text-[18px]'>
+             <h1 className='lg:text-[45px] font-bold md:text-[40px] text-[23px] text-[#fddc58]'>Laptop Accessories</h1>
+             <ul className=' mt-3 lg:text-[20px] md:text[22px] text-[16px]'>
                  <li className=''>
                      Fast & Reliable
                  </li>
@@ -70,8 +70,8 @@ export default function App() {
        </SwiperSlide>
          <SwiperSlide style={{backgroundImage:"url(/image/Untitled-1.jpg)" , backgroundSize:"100% 100%"}} >
          <div className='text-white h-[100%] flex flex-col justify-center w-[90%] mx-auto'>
-             <h1 className='lg:text-[45px] font-bold md:text-[40px] text-[25px] text-[#fddc58]'>Laptop Accessories</h1>
-             <ul className=' mt-3 lg:text-[20px] md:text[22px] text-[18px]'>
+             <h1 className='lg:text-[45px] font-bold md:text-[40px] text-[23px] text-[#fddc58]'>Laptop Accessories</h1>
+             <ul className=' mt-3 lg:text-[20px] md:text[22px] text-[16px]'>
                  <li className=''>
                      Fast & Reliable
                  </li>

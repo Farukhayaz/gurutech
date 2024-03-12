@@ -1,6 +1,6 @@
 export const cards=[
     {
-        img:"/image/laptop/10.jpeg",
+        img:"/image/laptop/lap.webp",
         img1:"/image/laptop/11.jpeg",
         img2:"/image/laptop/12.jpeg",
         h1:"MacBook Pro - Apple 2024",
