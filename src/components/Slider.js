@@ -34,7 +34,7 @@ export default function App() {
         navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
         onAutoplayTimeLeft={onAutoplayTimeLeft}
-        className="mySwiper lg:h-[520px] md:h-[520px] h-[200px]  mt-[2%]"
+        className="mySwiper lg:h-[520px] md:h-[520px] h-[250px] lg:w-[95%] md:w-[95%] w-[100%] lg:mt-[2%] md:mt-[2%] mt-0"
       >
                   <SwiperSlide style={{backgroundImage:"url(/image/laptop-5.jpg)" , backgroundSize:"100% 100%"}} >
          <div className='text-white h-[100%] flex flex-col justify-center w-[90%] mx-auto'>

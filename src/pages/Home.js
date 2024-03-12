@@ -51,11 +51,11 @@ export default function Home() {
         modules={[EffectCreative , Pagination]}
         className="swip mySwiper"
       >
-        <SwiperSlide>              <img src={e.img} className='lg:h-[240px] md:h-[240px] h-[200px] w-[100%] mx-auto' alt={`Card ${index}`}  />
+        <SwiperSlide>              <img src={e.img} className='lg:h-[240px] md:h-[240px] h-[250px] w-[100%] mx-auto' alt={`Card ${index}`}  />
 </SwiperSlide>
-<SwiperSlide>              <img src={e.img1} className='lg:h-[240px] md:h-[240px] h-[200px] w-[100%] mx-auto' alt={`Card ${index}`}  />
+<SwiperSlide>              <img src={e.img1} className='lg:h-[240px] md:h-[240px] h-[250px] w-[100%] mx-auto' alt={`Card ${index}`}  />
 </SwiperSlide>
-<SwiperSlide>              <img src={e.img2} className='lg:h-[240px] md:h-[240px] h-[200px] w-[100%] mx-auto' alt={`Card ${index}`}  />
+<SwiperSlide>              <img src={e.img2} className='lg:h-[240px] md:h-[240px] h-[250px] w-[100%] mx-auto' alt={`Card ${index}`}  />
 </SwiperSlide>
       </Swiper>
               {/* <img src={e.img} className='h-[240px] w-[100%] mx-auto' alt={`Card ${index}`}  /> */}
