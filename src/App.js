@@ -17,8 +17,10 @@ function App() {
   return (
    <>
    {showWelcome ? (
-        <div className="text-center h-[100vh] flex justify-center items-center p-4 bg-[#5C5C5C]">
-          <h1 className="text-6xl text-white font-bold">WELCOME TO YOUR <br/> <br/> GURU TECH IT SOLUTIONS </h1>
+        <div className="text-center h-[100vh] flex justify-center items-center p-4 bg-black">
+          
+          <img className='img' src='/image/lo.png'  alt='log'/>
+          {/* <h1 className="text-6xl text-white font-bold">WELCOME TO YOUR <br/> <br/> GURU TECH IT SOLUTIONS </h1> */}
         </div>
       ) : (
         <Home />

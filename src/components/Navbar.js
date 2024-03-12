@@ -6,8 +6,8 @@ const Navbar = () => {
     <nav className="bg-black">
       <div className="container mx-auto flex  items-center">
         {/* Logo */}
-        <div className="text-white font-bold text-lg">
-            <img src='/image/lo.png' className='h-[100px]' alt='Logo' />
+        <div className="text-white font-bold lg:mx-left md:mx-left mx-auto text-lg">
+            <img src='/image/lo.png' className='lg:h-[100px] md:h-[100px]  h-[65px]' alt='Logo' />
         </div>
         {/* Search input */}
        

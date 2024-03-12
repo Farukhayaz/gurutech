@@ -38,48 +38,48 @@ export default function App() {
       >
                   <SwiperSlide style={{backgroundImage:"url(/image/laptop-5.jpg)" , backgroundSize:"100% 100%"}} >
          <div className='text-white h-[100%] flex flex-col justify-center w-[90%] mx-auto'>
-             <h1 className='text-[40px] mb-5 text-[#fddc58]'>Laptop Accessories</h1>
-             <ul className=''>
+             <h1 className='lg:text-[45px] font-bold md:text-[40px] text-[25px] text-[#fddc58]'>Laptop Accessories</h1>
+             <ul className=' mt-3 lg:text-[20px] md:text[22px] text-[18px]'>
                  <li className=''>
                      Fast & Reliable
                  </li>
-                 <li className='mt-3'>
+                 <li className='mt-2'>
                      High Quality Graphics
                  </li>
              </ul>
-             <button className=' bg-[#fddc58] text-black mt-9 p-2 w-[15%] '>
+             <button className=' bg-[#fddc58] lg:text-[18px] md:text-[18px] text-[14px] text-black lg:mt-9 md:mt-6 mt-3 lg:p-2 md:p-2 p-1 lg:w-[15%] md:w-[30%] w-[30%] '>
               Shop Now
              </button>
          </div>
        </SwiperSlide>
        <SwiperSlide style={{backgroundImage:"url(/image/gaming-4.jpg)" , backgroundSize:"100% 100%"}} >
        <div className='text-white h-[100%] flex flex-col justify-center w-[90%] mx-auto'>
-             <h1 className='text-[40px] mb-5 text-[#fddc58]'>Laptop Accessories</h1>
-             <ul className=''>
+             <h1 className='lg:text-[45px] font-bold md:text-[40px] text-[25px] text-[#fddc58]'>Laptop Accessories</h1>
+             <ul className=' mt-3 lg:text-[20px] md:text[22px] text-[18px]'>
                  <li className=''>
                      Fast & Reliable
                  </li>
-                 <li className='mt-3'>
+                 <li className='mt-2'>
                      High Quality Graphics
                  </li>
              </ul>
-             <button className=' bg-[#fddc58] text-black mt-9 p-2 w-[15%] '>
+             <button className=' bg-[#fddc58] lg:text-[18px] md:text-[18px] text-[14px] text-black lg:mt-9 md:mt-6 mt-3 lg:p-2 md:p-2 p-1 lg:w-[15%] md:w-[30%] w-[30%] '>
               Shop Now
              </button>
          </div>
        </SwiperSlide>
          <SwiperSlide style={{backgroundImage:"url(/image/Untitled-1.jpg)" , backgroundSize:"100% 100%"}} >
          <div className='text-white h-[100%] flex flex-col justify-center w-[90%] mx-auto'>
-             <h1 className='text-[40px] mb-5 text-[#fddc58]'>Laptop Accessories</h1>
-             <ul className=''>
+             <h1 className='lg:text-[45px] font-bold md:text-[40px] text-[25px] text-[#fddc58]'>Laptop Accessories</h1>
+             <ul className=' mt-3 lg:text-[20px] md:text[22px] text-[18px]'>
                  <li className=''>
                      Fast & Reliable
                  </li>
-                 <li className='mt-3'>
+                 <li className='mt-2'>
                      High Quality Graphics
                  </li>
              </ul>
-             <button className=' bg-[#fddc58] text-black mt-9 p-2 w-[15%] '>
+             <button className=' bg-[#fddc58] lg:text-[18px] md:text-[18px] text-[14px] text-black lg:mt-9 md:mt-6 mt-3 lg:p-2 md:p-2 p-1 lg:w-[15%] md:w-[30%] w-[30%] '>
               Shop Now
              </button>
          </div>

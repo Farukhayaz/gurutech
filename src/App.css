@@ -11,3 +11,17 @@
 body{
   background: #f7f7f8;
 }
+
+
+.img {
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {
+    width: 0%;
+  }
+  to {
+  width: 90%;
+  }
+}
