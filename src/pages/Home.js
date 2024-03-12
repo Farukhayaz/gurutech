@@ -13,7 +13,7 @@ import 'swiper/css/effect-creative';
 import './slid.css';
 
 // import required modules
-import { EffectCreative } from 'swiper/modules';
+import {  EffectCreative, Pagination } from 'swiper/modules';
 export default function Home() {
   return (
     <>
@@ -32,6 +32,9 @@ export default function Home() {
       <Swiper
         grabCursor={true}
         effect={'creative'}
+        pagination={{
+          clickable: true,
+        }}
         creativeEffect={{
           prev: {
             shadow: true,
@@ -41,7 +44,7 @@ export default function Home() {
             translate: ['100%', 0, 0],
           },
         }}
-        modules={[EffectCreative]}
+        modules={[EffectCreative , Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>              <img src={e.img} className='h-[240px] w-[100%] mx-auto' alt={`Card ${index}`}  />
