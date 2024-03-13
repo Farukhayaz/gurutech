@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import './App.css';
-// import Home from './pages/Home';
-import Routs from './pages/Routs';
+import Home from './pages/Home';
 
 function App() {
   const [showWelcome, setShowWelcome] = useState(true);
@@ -24,8 +23,7 @@ function App() {
           {/* <h1 className="text-6xl text-white font-bold">WELCOME TO YOUR <br/> <br/> GURU TECH IT SOLUTIONS </h1> */}
         </div>
       ) : (
-        // <Home />
-        <Routs/>
+        <Home />
       )}
    </>
   );

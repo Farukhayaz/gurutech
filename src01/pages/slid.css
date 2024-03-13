@@ -1,0 +1,63 @@
+.swip {
+  /* margin: 100px auto; */
+  width: 100%;
+  /* height: 240px; */
+}
+
+.swiper-sli {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-sli:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+
+.swiper-sli:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+}
+
+.swiper-sli:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+.swiper-sli:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiper-sli:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-sli:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-sli:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-sli:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-sli:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-sli:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+
+.card:hover{
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card:hover .price{
+background: #fddc58;
+}
