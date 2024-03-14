@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Navbar from '../components/Navbar';
 import Slider from '../components/Slider';
 import Footer from '../components/Footer';
@@ -13,8 +13,13 @@ import { cards } from "../data";
 export default function Home() {
   const navigate = useNavigate();
   
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   const handleCardClick = (cardData) => {
     navigate(`/about`, { state: { cardData } });
+    window.scrollTo(0, 0);
     console.log(cardData, "cardData");
   };
 
