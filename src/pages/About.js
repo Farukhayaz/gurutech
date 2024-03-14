@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 // import { useLocation } from 'react-router-dom';
 import Cardslider from '../components/Cardslider';
+import Footer from '../components/Footer';
 
 export default function About() {
   // const location = useLocation();
@@ -12,6 +13,7 @@ export default function About() {
       <div>
       <Navbar />
     <Cardslider/> 
+    <Footer/>
       </div>
     </>
   );

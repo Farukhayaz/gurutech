@@ -37,7 +37,7 @@ const Cardslider = () => {
     <div className='lg:w-[40%] md:w-[50%] w-[100%] mt-10'>
     <div className="slider-container">
       <div className="slider">
-        <div className="slider-image">
+        <div className="slider-image  lg:h-[400px] md:h-[400px] h-[300px] ">
           <img className=' ' src={images[currentImageIndex]} alt={`Slide ${currentImageIndex + 1}`} />
         </div>
         <div className="thumbnails">
