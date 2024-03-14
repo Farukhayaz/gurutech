@@ -1,6 +1,7 @@
 .slider-container {
   position: relative;
   width: 100%;
+  
   max-width: 800px; /* Adjust width as needed */
   margin: 0 auto;
 }
@@ -8,16 +9,20 @@
 .slider {
   position: relative;
   overflow: hidden;
+  
 }
 
 .slider-image {
-  width: 100%;
-  height: auto;
-  text-align: center;
+  /* width: 500px; */
+display: flex;
+  height: 400px;
+  
+  /* text-align: center; */
 }
 
 .slider-image img {
-  max-width: 100%;
+  width: 100%;
+  
   height: auto;
 }
 
@@ -35,8 +40,8 @@
 }
 
 .thumbnail img {
-  width: 50px; /* Adjust thumbnail image size as needed */
-  height: auto;
+  width: 60px; /* Adjust thumbnail image size as needed */
+  height: 50px;
   border: 2px solid transparent;
 }
 
